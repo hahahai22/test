@@ -13,7 +13,7 @@ struct Point
 
 int main(int argc, char** argv)
 {
-    Point p{10, 20.5, "orign"};
+    Point p{10, 20.5, "origin"};
     cout << "x: " << p.x << "; y: " << p.y << "; lable: " << p.lable << endl;
     return 0;
 }
