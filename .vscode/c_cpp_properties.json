@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": ["${workspaceFolder}/**"],
+            "defines": [],
+            "compilerPath": "D:/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",   // 👈 关键：指定 C++17
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

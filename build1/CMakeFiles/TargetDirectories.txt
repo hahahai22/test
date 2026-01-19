@@ -1,0 +1,3 @@
+C:/Users/hl152/Desktop/test/build1/CMakeFiles/test.dir
+C:/Users/hl152/Desktop/test/build1/CMakeFiles/edit_cache.dir
+C:/Users/hl152/Desktop/test/build1/CMakeFiles/rebuild_cache.dir

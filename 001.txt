@@ -1,0 +1,660 @@
+Using HIP device BW200
+  Compute capability: 9.3
+  Total global memory: 68702699520 bytes
+  Shared memory per block: 65536 bytes
+  Number of multiprocessors: 80
+  Clock rate: 1500 MHz
+  Memory Clock Rate: 1500 MHz
+  Memory Bus Width: 4096 bits
+256_512_28_28_128_1_1_0_0_1_1_1_1_1_28_28
+in_size = 205520896, in_piece_size = 205520896, sub_n = 256, piece_nums = 1
+dims_pieces_n = 1, depth_pieces_n = 256, remainder_pieces_n = 256
+deal_subnohw_per_blk = 100352, dims_subnohw = 2, remainder_subnohw = 100352
+igemm Grid(4, 1, 2), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 1 
+IgemmBlockNums: 8 
+Average Time:2.040095 ms
+deal_subnohw_per_blk = 50176, dims_subnohw = 4, remainder_subnohw = 50176
+igemm Grid(4, 1, 4), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 2 
+IgemmBlockNums: 16 
+Average Time:1.090598 ms
+deal_subnohw_per_blk = 33456, dims_subnohw = 6, remainder_subnohw = 33424
+igemm Grid(4, 1, 6), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 3 
+IgemmBlockNums: 24 
+Average Time:1.144835 ms
+deal_subnohw_per_blk = 25088, dims_subnohw = 8, remainder_subnohw = 25088
+igemm Grid(4, 1, 8), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 4 
+IgemmBlockNums: 32 
+Average Time:0.536717 ms
+deal_subnohw_per_blk = 20080, dims_subnohw = 10, remainder_subnohw = 19984
+igemm Grid(4, 1, 10), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 5 
+IgemmBlockNums: 40 
+Average Time:0.877068 ms
+deal_subnohw_per_blk = 16736, dims_subnohw = 12, remainder_subnohw = 16608
+igemm Grid(4, 1, 12), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 6 
+IgemmBlockNums: 48 
+Average Time:1.189857 ms
+deal_subnohw_per_blk = 14336, dims_subnohw = 14, remainder_subnohw = 14336
+igemm Grid(4, 1, 14), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 7 
+IgemmBlockNums: 56 
+Average Time:19.495150 ms
+deal_subnohw_per_blk = 12544, dims_subnohw = 16, remainder_subnohw = 12544
+igemm Grid(4, 1, 16), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 8 
+IgemmBlockNums: 64 
+Average Time:0.288965 ms
+deal_subnohw_per_blk = 11152, dims_subnohw = 18, remainder_subnohw = 11120
+igemm Grid(4, 1, 18), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 9 
+IgemmBlockNums: 72 
+Average Time:0.264640 ms
+deal_subnohw_per_blk = 10048, dims_subnohw = 20, remainder_subnohw = 9792
+igemm Grid(4, 1, 20), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 10 
+IgemmBlockNums: 80 
+Average Time:0.667492 ms
+deal_subnohw_per_blk = 5024, dims_subnohw = 40, remainder_subnohw = 4768
+igemm Grid(4, 1, 40), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 20 
+IgemmBlockNums: 160 
+Average Time:0.256923 ms
+deal_subnohw_per_blk = 3360, dims_subnohw = 60, remainder_subnohw = 2464
+igemm Grid(4, 1, 60), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 30 
+IgemmBlockNums: 240 
+Average Time:0.593345 ms
+deal_subnohw_per_blk = 2512, dims_subnohw = 80, remainder_subnohw = 2256
+igemm Grid(4, 1, 80), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 40 
+IgemmBlockNums: 320 
+Average Time:0.267956 ms
+deal_subnohw_per_blk = 2016, dims_subnohw = 100, remainder_subnohw = 1120
+igemm Grid(4, 1, 100), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 50 
+IgemmBlockNums: 400 
+Average Time:0.647740 ms
+deal_subnohw_per_blk = 1680, dims_subnohw = 120, remainder_subnohw = 784
+igemm Grid(4, 1, 120), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 60 
+IgemmBlockNums: 480 
+Average Time:10.152562 ms
+deal_subnohw_per_blk = 1440, dims_subnohw = 140, remainder_subnohw = 544
+igemm Grid(4, 1, 140), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 70 
+IgemmBlockNums: 560 
+Average Time:0.405122 ms
+deal_subnohw_per_blk = 1264, dims_subnohw = 159, remainder_subnohw = 992
+igemm Grid(4, 1, 159), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 80 
+IgemmBlockNums: 636 
+Average Time:1.956282 ms
+deal_subnohw_per_blk = 1120, dims_subnohw = 180, remainder_subnohw = 224
+igemm Grid(4, 1, 180), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 90 
+IgemmBlockNums: 720 
+Average Time:0.329894 ms
+deal_subnohw_per_blk = 1008, dims_subnohw = 200, remainder_subnohw = 112
+igemm Grid(4, 1, 200), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 100 
+IgemmBlockNums: 800 
+Average Time:0.333327 ms
+deal_subnohw_per_blk = 912, dims_subnohw = 221, remainder_subnohw = 64
+igemm Grid(4, 1, 221), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 110 
+IgemmBlockNums: 884 
+Average Time:0.551609 ms
+deal_subnohw_per_blk = 848, dims_subnohw = 237, remainder_subnohw = 576
+igemm Grid(4, 1, 237), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 120 
+IgemmBlockNums: 948 
+Average Time:4.203771 ms
+deal_subnohw_per_blk = 784, dims_subnohw = 256, remainder_subnohw = 784
+igemm Grid(4, 1, 256), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 130 
+IgemmBlockNums: 1024 
+Average Time:0.843930 ms
+deal_subnohw_per_blk = 720, dims_subnohw = 279, remainder_subnohw = 544
+igemm Grid(4, 1, 279), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 140 
+IgemmBlockNums: 1116 
+Average Time:0.363925 ms
+deal_subnohw_per_blk = 672, dims_subnohw = 299, remainder_subnohw = 448
+igemm Grid(4, 1, 299), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 150 
+IgemmBlockNums: 1196 
+Average Time:0.844547 ms
+deal_subnohw_per_blk = 640, dims_subnohw = 314, remainder_subnohw = 384
+igemm Grid(4, 1, 314), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 160 
+IgemmBlockNums: 1256 
+Average Time:0.364896 ms
+deal_subnohw_per_blk = 592, dims_subnohw = 340, remainder_subnohw = 16
+igemm Grid(4, 1, 340), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 170 
+IgemmBlockNums: 1360 
+Average Time:0.428185 ms
+deal_subnohw_per_blk = 560, dims_subnohw = 359, remainder_subnohw = 224
+igemm Grid(4, 1, 359), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 180 
+IgemmBlockNums: 1436 
+Average Time:0.404308 ms
+deal_subnohw_per_blk = 528, dims_subnohw = 381, remainder_subnohw = 64
+igemm Grid(4, 1, 381), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 190 
+IgemmBlockNums: 1524 
+Average Time:0.656378 ms
+deal_subnohw_per_blk = 512, dims_subnohw = 392, remainder_subnohw = 512
+igemm Grid(4, 1, 392), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 200 
+IgemmBlockNums: 1568 
+Average Time:1.212775 ms
+deal_subnohw_per_blk = 480, dims_subnohw = 419, remainder_subnohw = 64
+igemm Grid(4, 1, 419), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 210 
+IgemmBlockNums: 1676 
+Average Time:1.501702 ms
+deal_subnohw_per_blk = 464, dims_subnohw = 433, remainder_subnohw = 256
+igemm Grid(4, 1, 433), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 220 
+IgemmBlockNums: 1732 
+Average Time:0.560173 ms
+deal_subnohw_per_blk = 448, dims_subnohw = 448, remainder_subnohw = 448
+igemm Grid(4, 1, 448), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 230 
+IgemmBlockNums: 1792 
+Average Time:5.314988 ms
+deal_subnohw_per_blk = 432, dims_subnohw = 465, remainder_subnohw = 256
+igemm Grid(4, 1, 465), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 240 
+IgemmBlockNums: 1860 
+Average Time:1.816840 ms
+deal_subnohw_per_blk = 416, dims_subnohw = 483, remainder_subnohw = 192
+igemm Grid(4, 1, 483), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 250 
+IgemmBlockNums: 1932 
+Average Time:0.457508 ms
+deal_subnohw_per_blk = 400, dims_subnohw = 502, remainder_subnohw = 304
+igemm Grid(4, 1, 502), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 260 
+IgemmBlockNums: 2008 
+Average Time:21.822186 ms
+deal_subnohw_per_blk = 384, dims_subnohw = 523, remainder_subnohw = 256
+igemm Grid(4, 1, 523), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 270 
+IgemmBlockNums: 2092 
+Average Time:0.452375 ms
+deal_subnohw_per_blk = 368, dims_subnohw = 546, remainder_subnohw = 144
+igemm Grid(4, 1, 546), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 280 
+IgemmBlockNums: 2184 
+Average Time:3.075614 ms
+deal_subnohw_per_blk = 352, dims_subnohw = 571, remainder_subnohw = 64
+igemm Grid(4, 1, 571), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 290 
+IgemmBlockNums: 2284 
+Average Time:1.873062 ms
+deal_subnohw_per_blk = 336, dims_subnohw = 598, remainder_subnohw = 112
+igemm Grid(4, 1, 598), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 300 
+IgemmBlockNums: 2392 
+Average Time:0.510721 ms
+deal_subnohw_per_blk = 336, dims_subnohw = 598, remainder_subnohw = 112
+igemm Grid(4, 1, 598), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 310 
+IgemmBlockNums: 2392 
+Average Time:0.483750 ms
+deal_subnohw_per_blk = 320, dims_subnohw = 628, remainder_subnohw = 64
+igemm Grid(4, 1, 628), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 320 
+IgemmBlockNums: 2512 
+Average Time:0.760871 ms
+deal_subnohw_per_blk = 304, dims_subnohw = 661, remainder_subnohw = 64
+igemm Grid(4, 1, 661), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 330 
+IgemmBlockNums: 2644 
+Average Time:0.805295 ms
+deal_subnohw_per_blk = 304, dims_subnohw = 661, remainder_subnohw = 64
+igemm Grid(4, 1, 661), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 340 
+IgemmBlockNums: 2644 
+Average Time:1.584704 ms
+deal_subnohw_per_blk = 288, dims_subnohw = 697, remainder_subnohw = 256
+igemm Grid(4, 1, 697), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 350 
+IgemmBlockNums: 2788 
+Average Time:0.511886 ms
+deal_subnohw_per_blk = 288, dims_subnohw = 697, remainder_subnohw = 256
+igemm Grid(4, 1, 697), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 360 
+IgemmBlockNums: 2788 
+Average Time:0.813966 ms
+deal_subnohw_per_blk = 272, dims_subnohw = 738, remainder_subnohw = 240
+igemm Grid(4, 1, 738), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 370 
+IgemmBlockNums: 2952 
+Average Time:0.940657 ms
+deal_subnohw_per_blk = 272, dims_subnohw = 738, remainder_subnohw = 240
+igemm Grid(4, 1, 738), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 380 
+IgemmBlockNums: 2952 
+Average Time:0.537528 ms
+deal_subnohw_per_blk = 272, dims_subnohw = 738, remainder_subnohw = 240
+igemm Grid(4, 1, 738), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 390 
+IgemmBlockNums: 2952 
+Average Time:0.517001 ms
+deal_subnohw_per_blk = 256, dims_subnohw = 784, remainder_subnohw = 256
+igemm Grid(4, 1, 784), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 400 
+IgemmBlockNums: 3136 
+Average Time:0.771828 ms
+deal_subnohw_per_blk = 256, dims_subnohw = 784, remainder_subnohw = 256
+igemm Grid(4, 1, 784), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 410 
+IgemmBlockNums: 3136 
+Average Time:1.293058 ms
+deal_subnohw_per_blk = 240, dims_subnohw = 837, remainder_subnohw = 64
+igemm Grid(4, 1, 837), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 420 
+IgemmBlockNums: 3348 
+Average Time:0.545727 ms
+deal_subnohw_per_blk = 240, dims_subnohw = 837, remainder_subnohw = 64
+igemm Grid(4, 1, 837), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 430 
+IgemmBlockNums: 3348 
+Average Time:0.735679 ms
+deal_subnohw_per_blk = 240, dims_subnohw = 837, remainder_subnohw = 64
+igemm Grid(4, 1, 837), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 440 
+IgemmBlockNums: 3348 
+Average Time:4.592683 ms
+deal_subnohw_per_blk = 224, dims_subnohw = 896, remainder_subnohw = 224
+igemm Grid(4, 1, 896), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 450 
+IgemmBlockNums: 3584 
+Average Time:0.641325 ms
+deal_subnohw_per_blk = 224, dims_subnohw = 896, remainder_subnohw = 224
+igemm Grid(4, 1, 896), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 460 
+IgemmBlockNums: 3584 
+Average Time:0.738460 ms
+deal_subnohw_per_blk = 224, dims_subnohw = 896, remainder_subnohw = 224
+igemm Grid(4, 1, 896), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 470 
+IgemmBlockNums: 3584 
+Average Time:2.510808 ms
+deal_subnohw_per_blk = 224, dims_subnohw = 896, remainder_subnohw = 224
+igemm Grid(4, 1, 896), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 480 
+IgemmBlockNums: 3584 
+Average Time:1.199843 ms
+deal_subnohw_per_blk = 208, dims_subnohw = 965, remainder_subnohw = 192
+igemm Grid(4, 1, 965), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 490 
+IgemmBlockNums: 3860 
+Average Time:1.532306 ms
+deal_subnohw_per_blk = 208, dims_subnohw = 965, remainder_subnohw = 192
+igemm Grid(4, 1, 965), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 500 
+IgemmBlockNums: 3860 
+Average Time:1.525307 ms
+deal_subnohw_per_blk = 208, dims_subnohw = 965, remainder_subnohw = 192
+igemm Grid(4, 1, 965), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 510 
+IgemmBlockNums: 3860 
+Average Time:1.055733 ms
+deal_subnohw_per_blk = 192, dims_subnohw = 1046, remainder_subnohw = 64
+igemm Grid(4, 1, 1046), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 520 
+IgemmBlockNums: 4184 
+Average Time:0.635190 ms
+deal_subnohw_per_blk = 192, dims_subnohw = 1046, remainder_subnohw = 64
+igemm Grid(4, 1, 1046), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 530 
+IgemmBlockNums: 4184 
+Average Time:3.034602 ms
+deal_subnohw_per_blk = 192, dims_subnohw = 1046, remainder_subnohw = 64
+igemm Grid(4, 1, 1046), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 540 
+IgemmBlockNums: 4184 
+Average Time:9.395086 ms
+deal_subnohw_per_blk = 192, dims_subnohw = 1046, remainder_subnohw = 64
+igemm Grid(4, 1, 1046), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 550 
+IgemmBlockNums: 4184 
+Average Time:0.952731 ms
+deal_subnohw_per_blk = 192, dims_subnohw = 1046, remainder_subnohw = 64
+igemm Grid(4, 1, 1046), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 560 
+IgemmBlockNums: 4184 
+Average Time:0.698769 ms
+deal_subnohw_per_blk = 176, dims_subnohw = 1141, remainder_subnohw = 64
+igemm Grid(4, 1, 1141), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 570 
+IgemmBlockNums: 4564 
+Average Time:0.612000 ms
+deal_subnohw_per_blk = 176, dims_subnohw = 1141, remainder_subnohw = 64
+igemm Grid(4, 1, 1141), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 580 
+IgemmBlockNums: 4564 
+Average Time:5.569197 ms
+deal_subnohw_per_blk = 176, dims_subnohw = 1141, remainder_subnohw = 64
+igemm Grid(4, 1, 1141), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 590 
+IgemmBlockNums: 4564 
+Average Time:5.280325 ms
+deal_subnohw_per_blk = 176, dims_subnohw = 1141, remainder_subnohw = 64
+igemm Grid(4, 1, 1141), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 600 
+IgemmBlockNums: 4564 
+Average Time:4.871036 ms
+deal_subnohw_per_blk = 176, dims_subnohw = 1141, remainder_subnohw = 64
+igemm Grid(4, 1, 1141), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 610 
+IgemmBlockNums: 4564 
+Average Time:4.100504 ms
+deal_subnohw_per_blk = 176, dims_subnohw = 1141, remainder_subnohw = 64
+igemm Grid(4, 1, 1141), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 620 
+IgemmBlockNums: 4564 
+Average Time:1.158129 ms
+deal_subnohw_per_blk = 160, dims_subnohw = 1255, remainder_subnohw = 64
+igemm Grid(4, 1, 1255), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 630 
+IgemmBlockNums: 5020 
+Average Time:0.853768 ms
+deal_subnohw_per_blk = 160, dims_subnohw = 1255, remainder_subnohw = 64
+igemm Grid(4, 1, 1255), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 640 
+IgemmBlockNums: 5020 
+Average Time:0.769864 ms
+deal_subnohw_per_blk = 160, dims_subnohw = 1255, remainder_subnohw = 64
+igemm Grid(4, 1, 1255), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 650 
+IgemmBlockNums: 5020 
+Average Time:6.372568 ms
+deal_subnohw_per_blk = 160, dims_subnohw = 1255, remainder_subnohw = 64
+igemm Grid(4, 1, 1255), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 660 
+IgemmBlockNums: 5020 
+Average Time:0.656438 ms
+deal_subnohw_per_blk = 160, dims_subnohw = 1255, remainder_subnohw = 64
+igemm Grid(4, 1, 1255), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 670 
+IgemmBlockNums: 5020 
+Average Time:0.649520 ms
+deal_subnohw_per_blk = 160, dims_subnohw = 1255, remainder_subnohw = 64
+igemm Grid(4, 1, 1255), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 680 
+IgemmBlockNums: 5020 
+Average Time:0.854937 ms
+deal_subnohw_per_blk = 160, dims_subnohw = 1255, remainder_subnohw = 64
+igemm Grid(4, 1, 1255), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 690 
+IgemmBlockNums: 5020 
+Average Time:0.646697 ms
+deal_subnohw_per_blk = 144, dims_subnohw = 1394, remainder_subnohw = 112
+igemm Grid(4, 1, 1394), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 700 
+IgemmBlockNums: 5576 
+Average Time:0.889560 ms
+deal_subnohw_per_blk = 144, dims_subnohw = 1394, remainder_subnohw = 112
+igemm Grid(4, 1, 1394), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 710 
+IgemmBlockNums: 5576 
+Average Time:0.698250 ms
+deal_subnohw_per_blk = 144, dims_subnohw = 1394, remainder_subnohw = 112
+igemm Grid(4, 1, 1394), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 720 
+IgemmBlockNums: 5576 
+Average Time:3.464077 ms
+deal_subnohw_per_blk = 144, dims_subnohw = 1394, remainder_subnohw = 112
+igemm Grid(4, 1, 1394), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 730 
+IgemmBlockNums: 5576 
+Average Time:0.853624 ms
+deal_subnohw_per_blk = 144, dims_subnohw = 1394, remainder_subnohw = 112
+igemm Grid(4, 1, 1394), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 740 
+IgemmBlockNums: 5576 
+Average Time:1.282362 ms
+deal_subnohw_per_blk = 144, dims_subnohw = 1394, remainder_subnohw = 112
+igemm Grid(4, 1, 1394), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 750 
+IgemmBlockNums: 5576 
+Average Time:2.628894 ms
+deal_subnohw_per_blk = 144, dims_subnohw = 1394, remainder_subnohw = 112
+igemm Grid(4, 1, 1394), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 760 
+IgemmBlockNums: 5576 
+Average Time:0.951261 ms
+deal_subnohw_per_blk = 144, dims_subnohw = 1394, remainder_subnohw = 112
+igemm Grid(4, 1, 1394), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 770 
+IgemmBlockNums: 5576 
+Average Time:0.964886 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 780 
+IgemmBlockNums: 6272 
+Average Time:15.257822 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 790 
+IgemmBlockNums: 6272 
+Average Time:2.888036 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 800 
+IgemmBlockNums: 6272 
+Average Time:2.061990 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 810 
+IgemmBlockNums: 6272 
+Average Time:0.772233 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 820 
+IgemmBlockNums: 6272 
+Average Time:0.748406 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 830 
+IgemmBlockNums: 6272 
+Average Time:0.922064 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 840 
+IgemmBlockNums: 6272 
+Average Time:4.685249 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 850 
+IgemmBlockNums: 6272 
+Average Time:0.789787 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 860 
+IgemmBlockNums: 6272 
+Average Time:0.954823 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 870 
+IgemmBlockNums: 6272 
+Average Time:0.743827 ms
+deal_subnohw_per_blk = 128, dims_subnohw = 1568, remainder_subnohw = 128
+igemm Grid(4, 1, 1568), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 880 
+IgemmBlockNums: 6272 
+Average Time:5.071790 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 890 
+IgemmBlockNums: 7168 
+Average Time:2.830693 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 900 
+IgemmBlockNums: 7168 
+Average Time:2.455823 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 910 
+IgemmBlockNums: 7168 
+Average Time:1.034995 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 920 
+IgemmBlockNums: 7168 
+Average Time:0.889526 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 930 
+IgemmBlockNums: 7168 
+Average Time:1.395907 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 940 
+IgemmBlockNums: 7168 
+Average Time:2.570225 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 950 
+IgemmBlockNums: 7168 
+Average Time:4.177559 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 960 
+IgemmBlockNums: 7168 
+Average Time:2.156063 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 970 
+IgemmBlockNums: 7168 
+Average Time:1.824829 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 980 
+IgemmBlockNums: 7168 
+Average Time:2.228195 ms
+deal_subnohw_per_blk = 112, dims_subnohw = 1792, remainder_subnohw = 112
+igemm Grid(4, 1, 1792), Block(256, 1, 1) 
+fp32tofp16 Grid(32, 1, 1), Block(256, 1, 1) 
+ext_coeff: 990 
+IgemmBlockNums: 7168 
+Average Time:0.896779 ms
+min_time : 0.256923
