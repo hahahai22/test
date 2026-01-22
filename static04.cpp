@@ -33,5 +33,6 @@ int main(int argc, char** argv)
 
     FOO::staticMemberFunc(); // 输出: Static member func, staticVar: 200（无需对象）
     obj1.staticMemberFunc(); // 也可通过对象调用，但本质是类的
+    obj2.staticMemberFunc();
     return 0;
 }
