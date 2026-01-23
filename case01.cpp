@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 
     // unsigned int b = 0x0002;
     // printf("b: %d\n", b);
-    atomic();
+    // atomic();
 
 
     return 0;
