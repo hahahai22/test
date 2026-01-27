@@ -1,5 +1,6 @@
 #include <iostream>
 
+/// static修饰局部变量：只会在函数作用域内可见，并多次调用保持一份
 void foo()
 {
     int localVar              = 0; // 普通局部变量，函数每次调用都初始化为0

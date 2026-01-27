@@ -17,7 +17,8 @@ public:
     }
 };
 
-// 静态成员变量需要：类内声明，类外初始化
+// 静态成员变量必须需要：类内声明，类外初始化
+// 类是蓝图，类内声明告诉编译器属于其，类外初始化分配内存
 int FOO::staticMemberVar = 100;
 
 int main(int argc, char** argv)
